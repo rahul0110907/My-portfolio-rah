@@ -25,8 +25,8 @@ const NavBar = () => {
 
     
   return (
-    // ${sticky ? "shadow-xl !bg-black" : ""}
-    <div className={`flex flex-row bg-transparent h-20 items-center justify-between bg-black py-8 px-12 text-white fixed top-0 left-0 right-0 w-full z-50 `}>
+    // 
+    <div className={`flex flex-row bg-transparent h-20 items-center justify-between bg-black py-8 px-12 text-white fixed  top-0 left-0 right-0 w-full z-50 `}>
         <div ><a href='/' className='font-bold text-2xl' onClick={goTop}>Rahul.dev</a></div>
         
             <ul className='hidden md:flex'>

@@ -6,7 +6,7 @@ import Resume from '../Assets/RahulCV.pdf'
 
 const Home = () => {
   return (
-    <div id='Home' name='home' className='h-screen  w-full  bg-gradient-to-b from-black to-gray-800 mt-16 pb-10 '>
+    <div id='Home' name='home' className='h-screen  w-full  bg-gradient-to-b from-black to-gray-800  pb-10 '>
         <div className='max-w-screen-lg mx-auto flex flex-col  items-center justify-center h-full px-4  md:flex-row'>
             <div className='flex flex-col  justify-center  h-full px-20'>
                 <h1 className=' text-5xl sm:10xl font-bold text-white ' >Front-End React Developer</h1>
@@ -16,8 +16,8 @@ const Home = () => {
             </div>
             </div>
            
-            <div>
-                <img src={heroImg} alt='hero' className='rounded-2xl mx-auto w-2/3 md:w-full : '/>
+            <div className='pt-20'>
+                <img src={heroImg} alt='hero' className='rounded-2xl mx-auto w-2/3 md:w-full '/>
             </div>
         </div>
     </div>
