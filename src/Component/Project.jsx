@@ -10,10 +10,10 @@ const Project = () => {
     <div
       id="Project"
       name="Project"
-      className="w-full h-full bg-gradient-to-b from-black to-gray-800 text-white px-20 py-10"
+      className="w-full h-full bg-gradient-to-b from-black to-gray-800 text-white px-10 py-10"
     >
       <div className="pb-6 px-20 flex justify-center md:flex md:justify-start">
-        <p className=" uppercase inline border-b-4 font-bold text-3xl border-gray-500 ">
+        <p className=" uppercase inline mx-auto border-b-4 font-bold text-3xl border-gray-500 ">
           Portfolio
         </p>
       </div>
@@ -22,8 +22,7 @@ const Project = () => {
           <img
             src={Project1}
             alt="project-1"
-            style={{ height: "350px", width: "400px" }}
-            className="rounded-xl"
+            className="rounded-xl h-64 w-72 mx-auto mt-20"
           />
         </div>
         <div className="w-full h-full md:w-1/2 px-10 ">
@@ -35,10 +34,11 @@ const Project = () => {
             Quiz . The website provides an interface for Randomize questions with Quiz Timer
             ,Outcomes screen at the end of quiz, view correct answer options and
             view question results .
-          </p>
-          <p className="pt-4 flex justify-center items-center text-xl text-gray-500 ">
+            <br/>
             Stack Used : React , JavaScript , Venila CSS , HTML
           </p>
+    
+        
           <div className=" flex justify-center  gap-20 items-center  py-10">
             <a
               href="https://github.com/rahul011097/KBC-Quiz"
@@ -75,10 +75,10 @@ const Project = () => {
             A Travel website allows users to Search place , hotels for Travel in
             india accroding to there Budget . The website provides details of
             travel places in India according to session , month & festivals .
-          </p>
-          <p className="pt-4 flex justify-center items-center text-xl text-gray-500 ">
+            <br/>
             Stack Used : React , JavaScript , Venila CSS , HTML
           </p>
+        
           <div className=" flex justify-center  gap-20 items-center  py-10">
             <a
               href="https://github.com/rahul011097/travel.Net"
@@ -108,8 +108,7 @@ const Project = () => {
           <img
             src={Project2}
             alt="project-2"
-            style={{ height: "350px", width: "400px" }}
-            className="rounded-xl"
+            className="rounded-xl h-64 w-72 mx-auto mt-20"
           />
         </div>
       </div>
@@ -119,8 +118,7 @@ const Project = () => {
           <img
             src={Project3}
             alt="project-3"
-            style={{ height: "350px", width: "400px" }}
-            className="rounded-xl"
+            className="rounded-xl h-64 w-72 mx-auto mt-20"
           />
         </div>
         <div className="w-full h-full md:w-1/2 px-10 ">
@@ -131,10 +129,10 @@ const Project = () => {
             A Simple React website is an service Based website that allows users
             to choose our services , Brands . this website is based on React js
             with use of Caurosol . .
-          </p>
-          <p className="pt-4 flex justify-center items-center text-xl text-gray-500 ">
+            <br/>
             Stack Used : React , JavaScript , SCSS , HTML
           </p>
+      
           <div className=" flex justify-center  gap-20 items-center  py-10">
             <a
               href="https://github.com/rahul011097/ServiceBase-React"
@@ -173,10 +171,10 @@ const Project = () => {
             eum nam animi cum saepe eius dicta iusto ullam tenetur vero.
             Similique neque quam, consectetur natus inventore perspiciatis. Ex
             facilis vel maiores illo.
-          </p>
-          <p className="pt-4 flex justify-center items-center text-xl text-gray-500 ">
+            <br/>
             Stack Used : React , JavaScript , Telwind CSS , HTML
           </p>
+          
           <div className=" flex justify-center  gap-20 items-center  py-10">
             <button
               // href="#"
@@ -206,8 +204,7 @@ const Project = () => {
           <img
             src={Project4}
             alt="project-4"
-            style={{ height: "350px", width: "400px" }}
-            className="rounded-xl"
+            className="rounded-xl h-64 w-72 mx-auto mt-20"
           />
         </div>
       </div>

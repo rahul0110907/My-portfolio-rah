@@ -12,11 +12,11 @@ const Skills = () => {
   return (
     <div className='w-full h-full bg-gradient-to-b from-black to-gray-800 text-white px-20 py-10'>
         <div className='pb-8 px-20 flex justify-center md:flex md:justify-start'>
-            <p className='text-4xl text-white border-b-4 border-gray-500 inline font-bold uppercase'>Skills</p>
+            <p className='text-4xl text-white mx-auto border-b-4 border-gray-500 inline font-bold uppercase'>Skills</p>
         </div>
 
-        <div className='flex justify-between items-center  flex-wrap gap-10'>
-            <div className='flex flex-col justify-center items-center hover:scale-110 duration-200' >
+        <div className='flex w-80 justify-start flex-wrap gap-10 md:justify-between md:w-full'>
+            <div className='flex flex-col  justify-evenly items-center hover:scale-110 duration-200' >
                 <img src={Html} style={{width:'100px',height:'100px'}} alt='html' className=' rounded-full'/>
                 <p className='text-xl font-medium pt-4'>HTML</p>
             </div>

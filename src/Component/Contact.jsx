@@ -2,14 +2,15 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div id='Contact' name='About' className='w-full h-full  bg-gradient-to-b from-black to-gray-800 text-white  py-10'>
-      <div className='flex flex-col p-4  max-w-screen-lg mx-auto h-full '>
-      <div className='pb-8  '>
-        <p className='text-4xl text-white border-b-4 border-gray-500 inline font-bold uppercase px-20'>Contact</p>
-        <p className='text-xl  text-white py-6'>Submit the form below to get in touch</p>
-      </div>
+    <div id='Contact' name='Contact' className='w-full h-full  bg-gradient-to-b from-black to-gray-800 text-white  py-10'>
+      
+      <div className='pb-8 px-20 flex  justify-center md:flex md:justify-start'>
+            <p className='text-4xl text-white mx-auto border-b-4 border-gray-500 inline font-bold uppercase'>Contact</p>
+    </div>
+       
+
       <div className='flex flex-col justify-center items-center'>
-        <form action='https://getform.io/f/9b1d5f9f-b067-4df1-8981-bcc712c54f18' method='POST' className='flex flex-col w-full md:w-1/2'> 
+        <form action='https://getform.io/f/9b1d5f9f-b067-4df1-8981-bcc712c54f18' method='POST' className='flex flex-col px-4 w-full md:w-1/2'> 
           <input type='text' name='name' placeholder='Enter your name' 
           className='p-2  bg-transparent border-2  rounded-md text-white focus:outline-none' />
 
@@ -22,7 +23,7 @@ const Contact = () => {
         </form>
       </div>
       </div>
-    </div>
+  
   )
 }
 
