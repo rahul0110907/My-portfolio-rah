@@ -15,7 +15,7 @@ const Skills = () => {
             <p className='text-4xl text-white mx-auto border-b-4 border-gray-500 inline font-bold uppercase'>Skills</p>
         </div>
 
-        <div className='flex w-80 justify-start flex-wrap gap-10 md:justify-between md:w-full'>
+        <div className='flex w-64 justify-between flex-wrap gap-10 md:justify-between md:w-full'>
             <div className='flex flex-col  justify-evenly items-center hover:scale-110 duration-200' >
                 <img src={Html} style={{width:'100px',height:'100px'}} alt='html' className=' rounded-full'/>
                 <p className='text-xl font-medium pt-4'>HTML</p>
