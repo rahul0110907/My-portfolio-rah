@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div id='Home' name='home' className='h-screen  w-full  bg-gradient-to-b from-black to-gray-800  pb-10 '>
         <div className='max-w-screen-lg mx-auto flex flex-col  items-center justify-center h-full px-4  md:flex-row'>
-            <div className='flex flex-col  justify-center  h-full px-20 pt-28 md:pt-0'>
+            <div className='flex flex-col  justify-center  h-full px-20 pt-44 md:pt-0'>
                 <h1 className=' text-5xl sm:10xl font-bold text-white ' >Front-End React Developer</h1>
                 <p className='text-gray-500 py-4 font-medium'>Hi, I'm Rahul Kumar Gupta. A passionate Front-end React Developer based in Jaipur, Rajasthan. </p>
                 <div className='flex justify-center px-16 items-center w-[30%]'>

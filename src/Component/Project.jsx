@@ -39,7 +39,7 @@ const Project = () => {
           </p>
     
         
-          <div className=" flex justify-center  gap-20 items-center  py-10">
+          <div className=" flex justify-center w-full gap-20 items-center  py-10">
             <a
               href="https://github.com/rahul011097/KBC-Quiz"
               target="_blank"
@@ -79,7 +79,7 @@ const Project = () => {
             Stack Used : React , JavaScript , Venila CSS , HTML
           </p>
         
-          <div className=" flex justify-center  gap-20 items-center  py-10">
+          <div className=" flex justify-center w-full gap-20 items-center  py-10">
             <a
               href="https://github.com/rahul011097/travel.Net"
               target="_blank"
@@ -133,7 +133,7 @@ const Project = () => {
             Stack Used : React , JavaScript , SCSS , HTML
           </p>
       
-          <div className=" flex justify-center  gap-20 items-center  py-10">
+          <div className=" flex justify-center w-full  gap-20 items-center  py-10">
             <a
               href="https://github.com/rahul011097/ServiceBase-React"
               target="_blank"
@@ -175,7 +175,7 @@ const Project = () => {
             Stack Used : React , JavaScript , Telwind CSS , HTML
           </p>
           
-          <div className=" flex justify-center  gap-20 items-center  py-10">
+          <div className=" flex justify-center w-full gap-20 items-center  py-10">
             <button
               // href="#"
               // target="_blank"
