@@ -31,14 +31,13 @@ const Project = () => {
           </h2>
           <p className="flex justify-center items-center text-xl text-gray-500 ">
             A Quiz-App website is an online platform that allows users to play
-            Quiz . The website provides an interface for Randomize questions with Quiz Timer
-            ,Outcomes screen at the end of quiz, view correct answer options and
-            view question results .
-            <br/>
+            Quiz . The website provides an interface for Randomize questions
+            with Quiz Timer ,Outcomes screen at the end of quiz, view correct
+            answer options and view question results .
+            <br />
             Stack Used : React , JavaScript , Venila CSS , HTML
           </p>
-    
-        
+
           <div className=" flex justify-center w-full gap-20 items-center  py-10">
             <a
               href="https://github.com/rahul011097/KBC-Quiz"
@@ -52,7 +51,7 @@ const Project = () => {
               </>
             </a>
             <a
-              href="https://clinquant-buttercream-24375b.netlify.app/"
+              href="https://kbc-app-three.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="flex gap-2 justify-center items-center text-xl text-white  bg-violet-600 px-4 py-2 rounded-xl cursor-pointer hover:scale-110 duration-200"
@@ -75,10 +74,10 @@ const Project = () => {
             A Travel website allows users to Search place , hotels for Travel in
             india accroding to there Budget . The website provides details of
             travel places in India according to session , month & festivals .
-            <br/>
+            <br />
             Stack Used : React , JavaScript , Venila CSS , HTML
           </p>
-        
+
           <div className=" flex justify-center w-full gap-20 items-center  py-10">
             <a
               href="https://github.com/rahul011097/travel.Net"
@@ -92,7 +91,7 @@ const Project = () => {
               </>
             </a>
             <a
-              href="https://ornate-malabi-a8b0ca.netlify.app/"
+              href="https://travel-app-ebon-two.vercel.app/"
               target="_blank"
               rel="noreferrer"
               className="flex gap-2 justify-center items-center text-xl text-white  bg-violet-600 px-4 py-2 rounded-xl cursor-pointer hover:scale-110 duration-200"
@@ -129,10 +128,10 @@ const Project = () => {
             A Simple React website is an service Based website that allows users
             to choose our services , Brands . this website is based on React js
             with use of Caurosol . .
-            <br/>
+            <br />
             Stack Used : React , JavaScript , SCSS , HTML
           </p>
-      
+
           <div className=" flex justify-center w-full  gap-20 items-center  py-10">
             <a
               href="https://github.com/rahul011097/ServiceBase-React"
@@ -162,42 +161,42 @@ const Project = () => {
       <div className="w-full h-full flex flex-col md:flex-row pb-20 ">
         <div className="w-full h-full md:w-1/2 px-10 ">
           <h2 className="flex justify-center items-center text-2xl text-blue-500 font-bold pb-10 pt-5">
-            Ecommarce Clone App
+            Amazon-Clone
           </h2>
           <p className="flex justify-center items-center text-xl text-gray-500 ">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro quas
-            eius ratione ipsa quibusdam! Illum perspiciatis fugit assumenda
-            incidunt non iste hic corrupti doloremque, adipisci aliquid commodi
-            eum nam animi cum saepe eius dicta iusto ullam tenetur vero.
-            Similique neque quam, consectetur natus inventore perspiciatis. Ex
-            facilis vel maiores illo.
-            <br/>
+            Responsive Design for Every Device: Enjoy a flawless browsing
+            experience across various devices, as our frontend development
+            ensures seamless responsiveness, adapting effortlessly to desktops,
+            tablets, and mobile devices. Firebase authentication for SignIn,
+            Registration. Interactive User-interface .It is the Clone UI of
+            the Amazon Website.
+            <br />
             Stack Used : React , JavaScript , Telwind CSS , HTML
           </p>
-          
+
           <div className=" flex justify-center w-full gap-20 items-center  py-10">
-            <button
-              // href="#"
-              // target="_blank"
-              // rel="noreferrer"
+            <a
+              href="https://github.com/rahul011097/Amazon-Clone"
+              target="_blank"
+              rel="noreferrer"
               className="flex gap-2 justify-center items-center text-xl text-white  bg-violet-600 px-4 py-2 rounded-xl cursor-pointer hover:scale-110 duration-200"
             >
               Code{" "}
               <>
                 <BsGithub size={20} />
               </>
-            </button>
-            <button
-              // href=""
-              // target="_blank"
-              // rel="noreferrer"
+            </a>
+            <a
+              href="https://amazon-clone-six-sandy.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
               className="flex gap-2 justify-center items-center text-xl text-white  bg-violet-600 px-4 py-2 rounded-xl cursor-pointer hover:scale-110 duration-200"
             >
               Demo{" "}
               <>
                 <BsBoxArrowUpRight size={20} />
               </>
-            </button>
+            </a>
           </div>
         </div>
         <div className="w-full h-full md:w-1/2 px-10 ">
